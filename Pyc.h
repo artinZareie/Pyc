@@ -80,3 +80,51 @@ inline auto input(string prompt = "") {
 	cout << endl;
 	return data;
 }
+
+inline void input_var(string &refrence, string prompt = "") {
+	cout << prompt;
+	cin >> refrence;
+	cout << endl;
+}
+
+inline void input_var(int &refrence, string prompt = "") {
+	cout << prompt;
+	cin >> refrence;
+	cout << endl;
+}
+
+inline void input_var(unsigned int &refrence, string prompt = "") {
+	cout << prompt;
+	cin >> refrence;
+	cout << endl;
+}
+
+inline void input_var(unsigned long &refrence, string prompt = "") {
+	cout << prompt;
+	cin >> refrence;
+	cout << endl;
+}
+
+inline void input_var(float &refrence, string prompt = "") {
+	cout << prompt;
+	cin >> refrence;
+	cout << endl;
+}
+
+inline void input_var(double &refrence, string prompt = "") {
+	cout << prompt;
+	cin >> refrence;
+	cout << endl;
+}
+
+inline void input_var(bool &refrence, string prompt = "") {
+	cout << prompt;
+	cin >> refrence;
+	cout << endl;
+}
+
+inline void input_var(char &refrence, string prompt = "") {
+	cout << prompt;
+	cin >> refrence;
+	cout << endl;
+}
