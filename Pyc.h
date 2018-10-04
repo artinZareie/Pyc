@@ -28,7 +28,6 @@ inline void print(long experession) {
 	cout << experession;
 }
 
-
 inline void print(unsigned int experession) {
 	cout << experession;
 }
@@ -81,49 +80,49 @@ inline auto input(string prompt = "") {
 	return data;
 }
 
-inline void input_var(string &refrence, string prompt = "") {
+inline void input(string &refrence, string prompt = "") {
 	cout << prompt;
 	cin >> refrence;
 	cout << endl;
 }
 
-inline void input_var(int &refrence, string prompt = "") {
+inline void input(int &refrence, string prompt = "") {
 	cout << prompt;
 	cin >> refrence;
 	cout << endl;
 }
 
-inline void input_var(unsigned int &refrence, string prompt = "") {
+inline void input(unsigned int &refrence, string prompt = "") {
 	cout << prompt;
 	cin >> refrence;
 	cout << endl;
 }
 
-inline void input_var(unsigned long &refrence, string prompt = "") {
+inline void input(unsigned long &refrence, string prompt = "") {
 	cout << prompt;
 	cin >> refrence;
 	cout << endl;
 }
 
-inline void input_var(float &refrence, string prompt = "") {
+inline void input(float &refrence, string prompt = "") {
 	cout << prompt;
 	cin >> refrence;
 	cout << endl;
 }
 
-inline void input_var(double &refrence, string prompt = "") {
+inline void input(double &refrence, string prompt = "") {
 	cout << prompt;
 	cin >> refrence;
 	cout << endl;
 }
 
-inline void input_var(bool &refrence, string prompt = "") {
+inline void input(bool &refrence, string prompt = "") {
 	cout << prompt;
 	cin >> refrence;
 	cout << endl;
 }
 
-inline void input_var(char &refrence, string prompt = "") {
+inline void input(char &refrence, string prompt = "") {
 	cout << prompt;
 	cin >> refrence;
 	cout << endl;
